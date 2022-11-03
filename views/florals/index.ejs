@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head.ejs')%>
+  </head>
+  <style>
+
+  </style>
+  <body>
+    <section id="floralindex">
+        <h1>Welcome To Your Fairytale</h1>
+        <ul class="floralsIndex">
+            <% for(let i = 0; i < florals.length; i++) { %>
+            <li>
+                <h3> <%=floral[i].name%> </h3>
+                <a href="/florals/<%=floral[i]._id%>"><img src="<%=florals[i].img%>" /></a>
+            </li>
+        <% } %>
+        </ul>
+    </section>
+</body>
+</html>

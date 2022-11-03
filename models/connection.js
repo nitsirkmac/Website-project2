@@ -9,3 +9,5 @@ const db = mongoose.connection;
 db.on("error", (err) => console.log(err.message + " is mongo not running?"));
 db.on("connected", () => console.log("mongo No5"));
 db.on("disconnected", () => console.log("mongo disconnected"));
+
+module.exports = mongoose;

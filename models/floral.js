@@ -10,4 +10,4 @@ const floralSchema = new mongoose.Schema({
 
 const Floral = mongoose.model('floral', floralSchema)
 
-module.exports = Floral
+module.exports = Floral;
