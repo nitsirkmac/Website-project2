@@ -12,6 +12,11 @@ router.get('/', (req, res) => {
 })
 
 // NEW
+router.get('/new', (req, res) => {
+    Floral.find({}, (err, allFlorals) => {
+        res.render('florals/new.ejs')
+    })
+})
 
 // DELETE
 
