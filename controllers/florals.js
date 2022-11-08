@@ -23,6 +23,11 @@ router.get('/new', (req, res) => {
 // UPDATE
 
 // CREATE
+router.post('/', (req, res) => {
+    Floral.create(req.body, (err, createdFloral) => {
+        res.redirect('/florals')
+    })
+})
 
 //EDIT
 

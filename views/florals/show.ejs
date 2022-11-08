@@ -20,9 +20,9 @@
   <body>
     <div class="showpage">
           <h2><strong><%=floral.name%></strong></h2><br>
-          <h3>: <%=floral.description%></h3><br>
+          <h3>About This Creation: <%=floral.description%></h3><br>
           <img src="<%=floral.img%>" /><br>
-          <h4>Starts At: <%=floral.price%></h4><br>
+          <h4>Starts At: $<%=floral.price%></h4><br>
 
           <div class="rsvbtn">
                 <h4>Available</h4> <form action="/florals/cart/<%=id%>?_method=PUT" method="POST" >
