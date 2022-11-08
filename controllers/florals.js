@@ -30,6 +30,14 @@ router.post('/', (req, res) => {
 })
 
 //EDIT
+router.get('/:id/edit', (req, res) => {
+    Floral.findById(req.params.id, (err, foundFloral) => {
+        res.render('florals/edit.ejs', {
+            floral: foundFloral,
+            id: req.params.id,
+        })
+    })
+})
 
 // SHOW
 router.get('/:id', (req, res) => {

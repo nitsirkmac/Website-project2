@@ -10,6 +10,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 10px 80px;
     }
     img {
         height: 200px;
@@ -20,7 +21,8 @@
   <body>
     <div class="showpage">
           <h2><strong><%=floral.name%></strong></h2><br>
-          <h3>About This Creation: <%=floral.description%></h3><br>
+          <h3>About This Creation:</h3><br>
+          <h3> <%=floral.description%></h3><br>
           <img src="<%=floral.img%>" /><br>
           <h4>Starts At: $<%=floral.price%></h4><br>
 
@@ -33,7 +35,7 @@
 
           <div class="edbtn">
             <form action="/florals/<%=id%>/edit" method="PUT">
-                <input type="submit" value="Edit This Item" />
+                <input type="submit" value="Edit This Creation" />
             </form>
 
             </div>
