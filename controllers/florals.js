@@ -21,6 +21,16 @@ router.get('/new', (req, res) => {
 // DELETE
 
 // UPDATE
+router.put('/:id', (req, res) => {
+    Floral.findByIdAndUpdate (
+        req.params.id,
+        req.body,
+        { new: true },
+        (err, updatedFloral) => {
+            res.redirect(`florals/${req.params.id}`)
+        }
+    )
+})
 
 // CREATE
 router.post('/', (req, res) => {
