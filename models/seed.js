@@ -6,27 +6,69 @@ const floralData = [
         price: 380,
     },
     // {
-    //     name: "",
+    //     name: "Round Bridal Bouquet",
     //     description: "",
     //     img: "",
     //     price: ,
     // },
     // {
-    //     name: "",
+    //     name: "Posey Bouquet",
     //     description: "",
     //     img: "",
     //     price: ,
     // },
     // {
-    //     name: "",
+    //     name: "Wristlet Corsage",
     //     description: "",
     //     img: "",
     //     price: ,
     // },
     // {
-    //     name: "",
+    //     name: "Pin-On Corsage",
     //     description: "",
     //     img: "",
     //     price: ,
     // }
+    // {
+    //     name: "Boutonniere",
+    //     description: "",
+    //     img: "",
+    //     price: ,
+    // },
+    // {
+    //     name: "Small Arbor Piece",
+    //     description: "",
+    //     img: "",
+    //     price: ,
+    // },
+    // {
+    //     name: "Hanging Installment",
+    //     description: "",
+    //     img: "",
+    //     price: ,
+    // },
+    // {
+    //     name: "Loose Greens",
+    //     description: "",
+    //     img: "",
+    //     price: ,
+    // },
+    // {
+    //     name: "Loose Floral",
+    //     description: "",
+    //     img: "",
+    //     price: ,
+    // },
+    // {
+    //     name: "Flower Petals",
+    //     description: "",
+    //     img: "",
+    //     price: ,
+    // },
+    // {
+    //     name: "Floral Crown",
+    //     description: "",
+    //     img: "",
+    //     price: ,
+    // },
 ]

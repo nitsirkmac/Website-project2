@@ -2,6 +2,13 @@ const express = require("express");
 const router = express.Router();
 const Floral = require('../models/floral');
 
+// SEED
+// router.get('/seed', (req, res) => {
+//     Floral.create(floralData, (err, data) => {
+//         res.redirect('/florals')
+//     })
+// })
+
 // INDEX
 router.get('/', (req, res) => {
     Floral.find({}, (error, allFlorals) => {
