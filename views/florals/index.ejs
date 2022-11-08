@@ -4,7 +4,11 @@
     <%- include('../partials/head.ejs')%>
   </head>
   <style>
-
+    img {
+        height: 150px;
+        border: solid black 2px;
+        border-radius: 10px;
+    }
   </style>
   <body>
     <section id="floralindex">
@@ -12,8 +16,8 @@
         <ul class="floralsIndex">
             <% for(let i = 0; i < florals.length; i++) { %>
             <li>
-                <h3> <%=floral[i].name%> </h3>
-                <a href="/florals/<%=floral[i]._id%>"><img src="<%=florals[i].img%>" /></a>
+                <h3> <%=florals[i].name%> </h3>
+                <a href="/florals/<%=florals[i]._id%>"><img src="<%=florals[i].img%>" /></a>
             </li>
         <% } %>
         </ul>

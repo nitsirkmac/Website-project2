@@ -22,5 +22,13 @@ router.get('/', (req, res) => {
 //EDIT
 
 // SHOW
+router.get('/:id', (req, res) => {
+    Floral.findById(req.params.id, (err, foundFloral) => {
+        res.render('florals/show.ejs', {
+            floral: foundFloral,
+            id: req.params.id,
+        })
+    })
+})
 
 module.exports = router;

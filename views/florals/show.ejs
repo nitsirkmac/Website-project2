@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head.ejs')%>
+  </head>
+
+  <style>
+    .showpage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    img {
+        height: 200px;
+        border: solid black 2px;
+        border-radius: 10px;
+    }
+  </style>
+  <body>
+    <div class="showpage">
+          <h2><strong><%=floral.name%></strong></h2><br>
+          <h3>: <%=floral.description%></h3><br>
+          <img src="<%=floral.img%>" /><br>
+          <h4>Starts At: <%=floral.price%></h4><br>
+
+          <div class="rsvbtn">
+                <h4>Available</h4> <form action="/florals/cart/<%=id%>?_method=PUT" method="POST" >
+                <input type="submit" value="Add To Reservation" />
+                </form>
+
+          </div>
+
+          <div class="edbtn">
+            <form action="/florals/<%=id%>/edit" method="PUT">
+                <input type="submit" value="Edit This Item" />
+            </form>
+
+            </div>
+
+
+    </div>
+  </body>
+</html>
