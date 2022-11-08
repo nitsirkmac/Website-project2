@@ -19,6 +19,11 @@ router.get('/new', (req, res) => {
 })
 
 // DELETE
+router.delete('/:id', (req, res) => {
+    Floral.findByIdAndRemove(req.params.id, (err, foundFloral) => {
+        res.redirect('/florals')
+    })
+})
 
 // UPDATE
 router.put('/:id', (req, res) => {
