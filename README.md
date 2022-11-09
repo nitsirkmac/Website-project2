@@ -4,6 +4,7 @@
 This application will take the guesswork out of planning floral for the wedding. 
 
 ## LINK TO LIVE SITE
+https://nitsirkmac-project2.herokuapp.com/
 
 ## SCREENSHOT(S)
 
