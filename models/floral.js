@@ -3,8 +3,8 @@ const mongoose = require('./connection');
 
 const floralSchema = new mongoose.Schema({
     name: { type: String, required: true },
-    description: { type: String, required: true },
-    img: { type: String, required: true },
+    description: { type: String, required: false },
+    img: { type: String, required: false },
     price: { type: Number, required: true },
 })
 

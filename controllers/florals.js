@@ -44,6 +44,19 @@ router.put('/:id', (req, res) => {
     )
 })
 
+// RESERVE
+router.put('/reservation/:id', (req, res) => {
+    Floral.findByIdAndUpdate (
+        req.params.id,
+        req.body,
+        (err, reservedFloral) => {
+            console.log(reservedFloral)
+            reservedFloral.save()
+            res.redirect(`/florals/${req.params.id}`)
+        }
+    )
+})
+
 // CREATE
 router.post('/', (req, res) => {
     Floral.create(req.body, (err, createdFloral) => {

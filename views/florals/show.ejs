@@ -3,6 +3,9 @@
   <head>
     <%- include('../partials/head.ejs')%>
   </head>
+  <nav>
+    <%- include('../partials/nav.ejs')%>
+  </nav>
 
   <style>
     .showpage {
@@ -27,7 +30,7 @@
           <h4>Starts At: $<%=floral.price%></h4><br>
 
           <div class="rsvbtn">
-                <h4>Available</h4> <form action="/florals/cart/<%=id%>?_method=PUT" method="POST" >
+                <h4>Available</h4> <form action="/florals/reservation/<%=id%>?_method=PUT" method="POST" >
                 <input type="submit" value="Add To Reservation" />
                 </form>
 
