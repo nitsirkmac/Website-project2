@@ -8,7 +8,7 @@
   </style>
   <body>
     <h2>Edit This Creation</h2>
-    <form action="/florals" method="PUT">
+    <form action="/florals/<%=id%>" method="PUT">
         Name: <input type="text" name="name" value="<%=floral.name%>" /><br>
         Description: <input type="text" name="description" value="<%=floral.description%>" /><br>
         Image: <input type="text" name="img" value="<%=floral.img%>" /><br>

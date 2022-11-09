@@ -3,6 +3,8 @@
 ## DESCRIPTION
 This application will take the guesswork out of planning floral for the wedding. 
 
+## LINK TO LIVE SITE
+
 ## SCREENSHOT(S)
 
 ## TECHNOLOGIES USED
