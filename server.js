@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const mongoose = require('./models/connection.js');
 const middleware = require('./utils/middleware.js');
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000; 
 middleware(app)
 
 app.get('/', (req, res) => {
