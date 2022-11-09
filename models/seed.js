@@ -5,17 +5,23 @@ const floralData = [
         img: "https://i.imgur.com/HRZQiJP.jpg",
         price: 380,
     },
+    {
+        name: "Round Bridal Bouquet",
+        description: "Classic, round and more tightly composed bouquet with minimal greenery",
+        img: "https://i.imgur.com/5f1X3RJ.jpg",
+        price: 355,
+    },
+    {
+        name: "Posy Bouquet",
+        description: "Small compact bouquet with minimal greens",
+        img: "https://i.imgur.com/gXiJxMC.jpg",
+        price: 200,
+    },
     // {
-    //     name: "Round Bridal Bouquet",
-    //     description: "",
+    //     name: "Nosegay Bouquet",
+    //     description: "Small compact bouquet with equal amounts of florals and greens",
     //     img: "",
-    //     price: ,
-    // },
-    // {
-    //     name: "Posey Bouquet",
-    //     description: "",
-    //     img: "",
-    //     price: ,
+    //     price: 225,
     // },
     // {
     //     name: "Wristlet Corsage",
