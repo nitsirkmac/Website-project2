@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Floral = require('../models/floral');
+const middleware = require('../utils/middleware.js');
 // const floralData = require('../models/seed');
 
 // SEED
@@ -40,7 +41,7 @@ router.put('/:id', (req, res) => {
         req.body,
         { new: true },
         (err, updatedFloral) => {
-            res.redirect(`florals/${req.params.id}`)
+            res.redirect(`/florals/${req.params.id}`)
         }
     )
 })
