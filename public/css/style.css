@@ -11,8 +11,21 @@ body {
     background-color: blanchedalmond;
 }
 
-li {
+h3, h2 {
+    font-family: 'SignPainter';
+}
 
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    margin: 0 15px;
 }
 
 .photo {
@@ -42,7 +55,11 @@ img {
 
 #floralindex {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-flow: row wrap;
 
+}
+
+.edbtn {
+    display: flex;
+    justify-content: space-between;
 }

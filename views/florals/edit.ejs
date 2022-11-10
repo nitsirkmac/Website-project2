@@ -2,12 +2,24 @@
 <html lang="en">
   <head>
     <%- include('../partials/head.ejs')%>
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <nav>
     <%- include('../partials/nav.ejs')%>
   </nav>
   <style>
+    .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    align-items: center;
+    height: 30px;
+    background-color: rgba(84, 1, 1, 0.697);
+}
 
+body {
+    background-color: blanchedalmond;
+}
   </style>
   <body>
     <h2>Edit This Creation</h2>
