@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
-
+    "start": "nodemon server.js",
+    "build": "netlify deploy --prod"
   },
   "author": "Krissy Macdonald",
   "license": "ISC",
@@ -16,6 +16,8 @@
     "express": "^4.18.2",
     "method-override": "^3.0.0",
     "mongoose": "^6.7.0",
+    "netlify-cli": "^14.1.0",
+    "netlify-lambda": "^2.0.16",
     "nodemon": "^2.0.20"
   }
 }

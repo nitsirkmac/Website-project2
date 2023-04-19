@@ -9,5 +9,7 @@ app.get('/', (req, res) => {
     res.render('home.ejs')
 })
 
+
+
 app.listen(PORT, () =>
     console.log('nice day for a white wedding'))
