@@ -28,7 +28,7 @@ node express, ejs, css, javascript,
 |FRIDAY| CSS Stylesheet | Complete
 |SATURDAY| Finalize MVP & Bug Fixes | Complete
 |MONDAY| Additional data / Final Touches / Deploy on Heroku | Complete
-|TUESDAY| Present | Incomplete
+|TUESDAY| Present | Complete
 
 ## NEXT STEPS
 Add the additional models [venues, caterers, budget, timeline, ]
